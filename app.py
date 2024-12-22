@@ -43,7 +43,7 @@ if uploaded_file is not None:
 
 submit = st.button("Analyse this Food")
 input_prompt = """
-You are an expert nutritionist analyzing the food items in the image.
+You are going to be an expert nutritionist analyzing the food items in the image.
 Start by determining if the image contains food items. 
 If the image does not contain any food items, 
 clearly state "No food items detected in the image." 
